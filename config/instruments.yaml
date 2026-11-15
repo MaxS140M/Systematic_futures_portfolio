@@ -1,0 +1,33 @@
+equity:
+  SP500:   {name: "S&P 500",       multiplier: 50,       currency: USD, commission: 2.25, spread: 0.13}
+  NASDAQ:  {name: "Nasdaq 100",    multiplier: 20,       currency: USD, commission: 2.20, spread: 0.32}
+  EUROSTX: {name: "Euro Stoxx 50", multiplier: 10,       currency: EUR, commission: 2.00, spread: 0.48}
+  NIKKEI:  {name: "Nikkei 225",    multiplier: 100,      currency: JPY, commission: 40,   spread: 3.4}
+  FTSE100: {name: "FTSE 100",      multiplier: 10,       currency: GBP, commission: 1.70, spread: 0.47}
+
+bond:
+  US10:    {name: "US 10y Note",   multiplier: 1000,     currency: USD, commission: 1.67, spread: 0.008}
+  US30:    {name: "US Ultra Bond", multiplier: 1000,     currency: USD, commission: 1.82, spread: 0.016}
+  BUND:    {name: "German Bund",   multiplier: 1000,     currency: EUR, commission: 2.00, spread: 0.0052}
+  GILT:    {name: "UK Gilt",       multiplier: 1000,     currency: GBP, commission: 1.50, spread: 0.005}
+
+fx:
+  EUR:     {name: "EUR/USD",       multiplier: 125000,   currency: USD, commission: 2.47, spread: 0.000029}
+  JPY:     {name: "JPY/USD",       multiplier: 12500000, currency: USD, commission: 2.47, spread: 0.00000027}
+  GBP:     {name: "GBP/USD",       multiplier: 62500,    currency: USD, commission: 2.47, spread: 0.000061}
+  AUD:     {name: "AUD/USD",       multiplier: 100000,   currency: USD, commission: 2.47, spread: 0.000033}
+  CAD:     {name: "CAD/USD",       multiplier: 100000,   currency: USD, commission: 2.47, spread: 0.000030}
+
+energy:
+  CRUDE_W: {name: "Crude Oil",     multiplier: 1000,     currency: USD, commission: 2.37, spread: 0.012}
+  GAS_US:  {name: "Natural Gas",   multiplier: 10000,    currency: USD, commission: 2.47, spread: 0.0011}
+
+metals:
+  GOLD:    {name: "Gold",          multiplier: 100,      currency: USD, commission: 2.47, spread: 0.096}
+  SILVER:  {name: "Silver",        multiplier: 1000,     currency: USD, commission: 1.27, spread: 0.004}
+  COPPER:  {name: "Copper",        multiplier: 25000,    currency: USD, commission: 2.47, spread: 0.00047}
+
+agriculture:
+  CORN:    {name: "Corn",          multiplier: 50,       currency: USD, commission: 2.97, spread: 0.16}
+  SOYBEAN: {name: "Soybeans",      multiplier: 50,       currency: USD, commission: 2.97, spread: 0.17}
+  WHEAT:   {name: "Wheat",         multiplier: 50,       currency: USD, commission: 2.97, spread: 0.16}
