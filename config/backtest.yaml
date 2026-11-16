@@ -2,3 +2,5 @@ capital_levels: [100000, 1000000]
 start_date: "2000-01-01"
 holdout_start: "2021-04-01"
 target_annual_vol: 0.20
+buffer: 0.10
+diversification_multiplier: 2.0

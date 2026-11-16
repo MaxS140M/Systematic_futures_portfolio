@@ -2,7 +2,7 @@
 name = "sfp"
 version = "0.1.0"
 requires-python = ">=3.11"
-dependencies = ["pandas", "numpy", "pyyaml", "matplotlib", "pytest"]
+dependencies = ["pandas", "numpy", "pyyaml", "matplotlib", "pytest", "ipykernel"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
